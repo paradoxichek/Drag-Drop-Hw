@@ -1,0 +1,47 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Drag and Drop</title>
+	</head>
+	<body>
+		<div class="container">
+			
+			<form class="form	" name="form">
+				<div class="elem">
+					<h3>Имя</h3>
+	
+					<input class="inp1" name="name" type="text">
+				</div>
+				<div class="elem">
+					<h3>Возраст кабачка</h3>
+	
+					<input class="inp2" name="age" type="text">
+				</div>
+				<button>Показать кабачка</button>
+			</form>
+
+			<div class="todos">
+				<div class="todos__column">
+					<h1 class="not-done">Кабачки до 25</h1>
+					<div class="todos__box" id="not-done">
+						
+					</div>
+				</div>
+				<div class="todos__column">
+					<h1 class="in-progress">Кабачки до 50</h1>
+					<div class="todos__box" id="in-progress"></div>
+				</div>
+				<div class="todos__column">
+					<h1 class="done">Остальные кабачки</h1>
+					<div class="todos__box" id="done">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="module" src="./drag&drop.js"></script>
+	</body>
+</html>
